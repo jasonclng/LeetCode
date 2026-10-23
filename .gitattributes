@@ -1,0 +1,5 @@
+# Normalize line endings so diffs stay clean across Windows/macOS/Linux
+* text=auto eol=lf
+
+# Batch files need CRLF to run reliably in cmd.exe
+*.bat text eol=crlf
